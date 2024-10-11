@@ -5,7 +5,7 @@ table {
   border-collapse: separate; /* Allows corner radius */
   border-spacing: 0; /* Optional: Ensures no space between cells */
   border-radius: 8px; /* Adjust value for desired roundness */
-  overflow: hidden; /* Ensures content stays within the rounded edges */
+  overflow: hidden;
 }
 thead {
   background-color: #2f81ed2c;
@@ -15,4 +15,20 @@ th {
   margin: 0px;
   border: none;
   padding: 1rem 0rem;
+}
+.customer-td {
+  display: flex;
+  align-items: center;
+}
+.customer-td > img {
+  width: 30px;
+}
+th,
+td {
+  padding: 1rem 0.5rem; /* Add padding inside the cells */
+  /* background-color: white; */
+  text-align: left; /* Optional: Align text to the left */
+}
+tr {
+  overflow-y: scroll;
 }

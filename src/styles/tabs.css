@@ -1,0 +1,10 @@
+button {
+  background-color: #ffffff00;
+  border: none;
+}
+.tab-span {
+  background-color: #2f81ed73;
+  padding: 0.2rem 0.4rem;
+  border-radius: 50px;
+  font-size: 10px;
+}

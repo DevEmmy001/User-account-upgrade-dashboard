@@ -1,5 +1,6 @@
 // CustomerRow.jsx
 import React from "react";
+import avatarimg from "../assets/images/anna.png";
 
 const CustomerRow = ({ customer }) => {
   return (
@@ -7,8 +8,8 @@ const CustomerRow = ({ customer }) => {
       <td>
         <input type="checkbox" />
       </td>
-      <td>
-        <img src={customer.avatar} alt={customer.name} /> {customer.name}
+      <td className="customer-td">
+        <img src={avatarimg} alt={customer.name} /> {customer.name}
       </td>
       <td>{customer.email}</td>
       <td>{customer.phone}</td>

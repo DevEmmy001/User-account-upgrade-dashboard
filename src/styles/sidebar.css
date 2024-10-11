@@ -27,6 +27,9 @@
   padding: 0.5rem 1.5rem;
   border-radius: 50px;
 }
+.nav-links > ul {
+  padding: 2rem;
+}
 .nav-links > ul > li > button:focus {
   background-color: #2f81ed73;
   align-items: center;

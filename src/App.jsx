@@ -25,10 +25,12 @@ const App = () => {
     <div className="app">
       <Sidebar />
       <main>
-        <Tabs />
-        <SearchBar />
-        <ActionButtons />
-        <CustomerTable customers={customers} />
+        <div className="main-content">
+          <Tabs />
+          <SearchBar />
+          <ActionButtons />
+          <CustomerTable customers={customers} />
+        </div>
         {/* <Pagination /> */}
       </main>
     </div>
