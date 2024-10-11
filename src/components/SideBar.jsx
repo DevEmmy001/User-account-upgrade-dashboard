@@ -7,37 +7,56 @@ import UpgradeIcon from "@mui/icons-material/Upgrade";
 import ChatIcon from "@mui/icons-material/Chat";
 import ReportProblemIcon from "@mui/icons-material/ReportProblem";
 import SettingsIcon from "@mui/icons-material/Settings";
+import profileicon from "../assets/images/anna.png";
 
 const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="profile-section">
-        <img src="profile_image_url" alt="Anna George" />
-        <h2>Anna George</h2>
-        <p>Customer Operations</p>
+        <img src={profileicon} alt="Anna George" />
+        <div className="profile-info">
+          <h2>Anna George</h2>
+          <p>Customer Operations</p>
+        </div>
       </div>
       <nav className="nav-links">
         <ul>
           <li>
-            <DashboardIcon /> Dashboard
+            <button>
+              <DashboardIcon /> <span>Dashboard</span>
+            </button>
           </li>
           <li>
-            <AssignmentIcon /> Task
+            <button>
+              {" "}
+              <AssignmentIcon /> <span>Task</span>
+            </button>
           </li>
           <li>
-            <PeopleIcon /> Customers
+            <button>
+              {" "}
+              <PeopleIcon /> <span>Customers</span>
+            </button>
           </li>
           <li>
-            <UpgradeIcon /> Account Upgrade
+            <button>
+              <UpgradeIcon /> <span>Account Upgrade</span>
+            </button>
           </li>
           <li>
-            <ChatIcon /> Chats
+            <button>
+              <ChatIcon /> <span>Chats</span>
+            </button>
           </li>
           <li>
-            <ReportProblemIcon /> Disputes
+            <button>
+              <ReportProblemIcon /> <span>Disputes</span>
+            </button>
           </li>
-          <li>
-            <SettingsIcon /> Settings
+          <li className="settings">
+            <button>
+              <SettingsIcon /> <span>Settings</span>
+            </button>
           </li>
         </ul>
       </nav>

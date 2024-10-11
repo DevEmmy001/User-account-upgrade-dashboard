@@ -22,6 +22,6 @@ const CustomerTable = ({ customers }) => {
       </tbody>
     </table>
   );
-};
+};    
 
 export default CustomerTable;

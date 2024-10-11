@@ -29,7 +29,7 @@ const App = () => {
         <SearchBar />
         <ActionButtons />
         <CustomerTable customers={customers} />
-        <Pagination />
+        {/* <Pagination /> */}
       </main>
     </div>
   );
