@@ -15,6 +15,7 @@ const ActionButtons = () => {
       </button>
       <button>
         <FilterListIcon />
+        Filter
       </button>
     </div>
   );

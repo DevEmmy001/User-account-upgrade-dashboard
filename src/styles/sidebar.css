@@ -24,11 +24,15 @@
   width: fit-content;
   border: none;
   margin: 1rem 0rem;
+  transition: 0.5s;
   padding: 0.5rem 1.5rem;
   border-radius: 50px;
 }
 .nav-links > ul {
   padding: 2rem;
+}
+.nav-links > ul > li > button:hover {
+  background-color: #2f81ed25;
 }
 .nav-links > ul > li > button:focus {
   background-color: #2f81ed73;

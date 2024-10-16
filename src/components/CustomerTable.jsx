@@ -7,10 +7,7 @@ const CustomerTable = ({ customers }) => {
     <table>
       <thead>
         <tr>
-          <th>
-            {" "}
-            <input type="checkbox" />
-          </th>
+          <th></th>
           <th>Name</th>
           <th>Email</th>
           <th>Phone Number</th>
@@ -23,26 +20,6 @@ const CustomerTable = ({ customers }) => {
           <CustomerRow key={customer.id} customer={customer} />
         ))}
       </tbody>
-      <tbody>
-        {customers.map((customer) => (
-          <CustomerRow key={customer.id} customer={customer} />
-        ))}
-      </tbody>
-      <tbody>
-        {customers.map((customer) => (
-          <CustomerRow key={customer.id} customer={customer} />
-        ))}
-      </tbody>{" "}
-      <tbody>
-        {customers.map((customer) => (
-          <CustomerRow key={customer.id} customer={customer} />
-        ))}
-      </tbody>{" "}
-      <tbody>
-        {customers.map((customer) => (
-          <CustomerRow key={customer.id} customer={customer} />
-        ))}
-      </tbody>{" "}
     </table>
   );
 };

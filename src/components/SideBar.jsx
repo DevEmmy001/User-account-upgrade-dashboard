@@ -8,6 +8,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import ReportProblemIcon from "@mui/icons-material/ReportProblem";
 import SettingsIcon from "@mui/icons-material/Settings";
 import profileicon from "../assets/images/anna.png";
+import ArrowDropDown from "@mui/icons-material/ArrowDropDown";
 
 const Sidebar = () => {
   return (
@@ -41,6 +42,7 @@ const Sidebar = () => {
           <li>
             <button>
               <UpgradeIcon /> <span>Account Upgrade</span>
+              <ArrowDropDown />
             </button>
           </li>
           <li>
